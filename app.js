@@ -25,3 +25,16 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
+
+  function voltearcarta (){
+  var cardId =this.getattribute("data-id");
+  cartasEscogidas.push (cardAdj[cardId].name);
+  cartasEscogidasId.push(cardid);
+  this.setattribute("src",cardAdj[cardid].img);
+    if (cartasEscogidas.length=== 2){
+      setTimeout(verificarpareja, 1000);
+    }
+  }
+
+  creaetablero();
+});
