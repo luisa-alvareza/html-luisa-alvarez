@@ -38,3 +38,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   creaetablero();
 });
+function verificarpareja(){
+  var cards= document.querySellectorAll("img");
+  const opcionUnoId= cartasEscogidasId[0];
+  const opcionDosId= cartasEscogidasId[1];
+
+  if (opcionUnoId === opcionDosId);
+  cards [opcionUnoId].setAtributte("src", "images/reverso.png");
+  cards [opcionDosId].setAtributte("src", "images/reverso.png");
+  alert("¡Diste click a la misma imagen!");
+  else if (cartasEscogidas[0]=== cartasEscogidas[1]) {
+    alert("¡Correcto!");
+    
+  }
+} 
